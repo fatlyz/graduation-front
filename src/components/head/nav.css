@@ -1,0 +1,42 @@
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.mohu{ 
+    height:60px ;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.chongliang{
+    width: 10%;
+}
+.yonghu{
+    height:60px ;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.yonghu:hover{
+    color:blue;
+}
+.mohu:hover{
+    color:blue;
+}
+.head a{
+    text-decoration: none;
+    color:rgb(9, 18, 81);
+    font: 30px;
+}
+.head a:hover{
+    color:blue;
+}

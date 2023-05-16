@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.uplist{
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    margin-top: 60px;
+}
+.active,.showdom{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.active{
+    font-size: 25px;
+    color:blue;
+}
+.videocontainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.orderlist{
+    display: flex;
+    flex-direction:row;
+}
+.click,.update{
+    width: 80px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.click:hover{
+    text-decoration: solid;
+    color:rgb(53, 114, 166)
+}
+.update:hover{
+    text-decoration: double;
+    color:rgb(53, 114, 166)
+}
